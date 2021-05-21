@@ -17,6 +17,11 @@ Description      : myNM.h
 #define I 52.9
 #define w0 20
 
+
+// New function added
+void gradient2(double x[]);
+
+
 extern double newtonRaphson(double _x0, double _tol);
 extern double bisectionNL(double _a0, double _b0, double _tol);
 extern double hybrid(double _a0, double _b0, double _x0, double _tol);
